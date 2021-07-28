@@ -69,20 +69,7 @@ git clone https://gitee.com/cutefishos/filemanager.git
 git clone https://gitee.com/cutefishos/core.git
 git clone https://gitee.com/cutefishos/wallpapers.git
 git clone https://gitee.com/cutefishos/libcutefish.git
-mkdir fishui/build
-mkdir libcutefish/build
-mkdir kwin-plugins/build
-mkdir qt-plugins/build
-mkdir core/build
-mkdir settings/build
-mkdir terminal/build
-mkdir calculator/build
-mkdir icons/build
-mkdir dock/build
-mkdir statusbar/build
-mkdir launcher/build
-mkdir filemanager/build
-mkdir wallpapers/build
+mkdir fishui/build libcutefish/build kwin-plugins/build qt-plugins/build core/build settings/build terminal/build calculator/build icons/build dock/build statusbar/build launcher/build filemanager/build wallpapers/build
 cd fishui/build
 cmake -DCMAKE_INSTALL_PREFIX:PATH=/usr ..
 make -j
